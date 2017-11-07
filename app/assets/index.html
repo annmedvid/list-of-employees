@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1">
+
+<title>List of VGS employees</title>
+<link rel=stylesheet href=style.css>
+
+<header class=list-settings>
+    <h1 class=list-title>List of VGS employees</h1>
+
+    <label class=list-search><input name=search placeholder='Name or email, e.g. Theresa...'/></label>
+
+    <div class=department-filters>
+        <label class=filter><input type=checkbox name=department value=backend><span class=filter-box>backend</span></label>
+        <label class=filter><input checked type=checkbox name=department value=frontend><span class=filter-box>frontend</span></label>
+        <label class=filter><input type=checkbox name=department value=devops><span class=filter-box>devops</span></label>
+        <label class=filter><input checked type=checkbox name=department value=operations><span class=filter-box>operations</span></label>
+    </div>
+
+    <div class=locations-filters>
+        <label class=filter><input checked type=checkbox name=location value=lviv><span class=filter-box>lviv</span></label>
+        <label class=filter><input type=checkbox name=location value=kyiv><span class=filter-box>kyiv</span></label>
+        <label class=filter><input checked type=checkbox name=location value='san francisco'><span class=filter-box>san francisco</span></label>
+    </div>
+
+    <div class=results>
+        <p class=search-results>6 employees was found</p>
+        <button class=list-add>Add employee</button>
+    </div>
+</header>
+
+<main class=list-employees>
+    <section class=employee>
+        <h2 class=employee-name>Vera Mertens</h2>
+        <p class=department>Operations</p>
+
+        <figure class=employee-image aria-label="it's employee's photo">
+            <img class=photo src="./images/employee_photo_1.png" alt="Vera Mertens' photo">
+        </figure>
+
+        <h3 class=visually-hidden>Address</h3>
+        <p class=employee-location>
+            <span class=city tooltip="Brativ Rohatyntsiv St, 21 L'viv, 79000 Ukraine">Lviv</span>
+            <span class=floor>2nd floor</span>
+        </p>
+
+        <h3 class=employee-time>Local time</h3>
+        <time class=current-time datetime='2017-11-06T15:42-10:00'>3:42 PM</time>
+
+        <h3 class=visually-hidden>Contacts</h3>
+        <a class=employee-phone href='tel:+380324971888'>+ 38 (032) 497-1888</a>
+        <a class=employee-email href='mailto:vera-mertens@hotmail.com'>vera-mertens@hotmail.com</a>
+
+        <div class=employee-options>
+            <ul class=employee-menu>
+                <li><a href=/>Edit</a>
+                <li><a href=/>Move to...</a>
+                <li><button class=remove>Remove</button>
+            </ul>
+        </div>
+    </section>
+    <section class=employee>
+        <h2 class=employee-name>Theresa Mason</h2>
+        <p class=department>Operations</p>
+
+        <figure class=employee-image aria-label="it's employee's photo">
+            <img class=photo src="./images/employee_photo_2.png" alt="Theresa Mason's photo">
+        </figure>
+
+        <h3 class=visually-hidden>Address</h3>
+        <p class=employee-location>
+            <span class=city tooltip="Brativ Rohatyntsiv St, 21 L'viv, 79000 Ukraine">Lviv</span>
+            <span class=floor>2nd floor</span>
+        </p>
+
+        <h3 class=employee-time>Local time</h3>
+        <time class=current-time datetime='2017-11-06T15:42-10:00'>3:42 PM</time>
+
+        <h3 class=visually-hidden>Contacts</h3>
+        <a class=employee-phone href='tel:+380324971888'>+ 38 (032) 497-1888</a>
+        <a class=employee-email href='mailto:vera-mertens@hotmail.com'>theresa-mason@hotmail.com</a>
+
+        <div class=employee-options>
+            <ul class=employee-menu>
+                <li><a href=/>Edit</a>
+                <li><a href=/>Move to...</a>
+                <li><button class=remove>Remove</button>
+            </ul>
+        </div>
+    </section>
+    <section class=employee>
+        <h2 class=employee-name>Edward Chapman</h2>
+        <p class=department>Operations</p>
+
+        <figure class=employee-image aria-label="it's employee's photo">
+            <img class=photo src="./images/employee_photo_3.png" alt="Edward Chapman's photo">
+        </figure>
+
+        <h3 class=visually-hidden>Address</h3>
+        <p class=employee-location>
+            <span class=city tooltip="Brativ Rohatyntsiv St, 21 L'viv, 79000 Ukraine">Lviv</span>
+            <span class=floor>4th floor</span>
+        </p>
+
+        <h3 class=employee-time>Local time</h3>
+        <time class=current-time datetime='2017-11-06T15:42-10:00'>3:42 PM</time>
+
+        <h3 class=visually-hidden>Contacts</h3>
+        <a class=employee-phone href='tel:+380324971888'>+ 38 (032) 497-1888</a>
+        <a class=employee-email href='mailto:vera-mertens@hotmail.com'>edward-chapman@hotmail.com</a>
+
+        <div class=employee-options>
+            <ul class=employee-menu>
+                <li><a href=/>Edit</a>
+                <li><a href=/>Move to...</a>
+                <li><button class=remove>Remove</button>
+            </ul>
+        </div>
+    </section>
+    <section class=employee>
+        <h2 class=employee-name>Samantha Kennedy</h2>
+        <p class=department>Frontend</p>
+
+        <figure class=employee-image aria-label="it's employee's photo">
+            <img class=photo src="./images/employee_photo_4.png" alt="Samantha Kennedy's photo">
+        </figure>
+
+        <h3 class=visually-hidden>Address</h3>
+        <p class=employee-location>
+            <span class=city tooltip="Brativ Rohatyntsiv St, 21 L'viv, 79000 Ukraine">Lviv</span>
+            <span class=floor>4th floor</span>
+        </p>
+
+        <h3 class=employee-time>Local time</h3>
+        <time class=current-time datetime='2017-11-06T15:42-10:00'>3:42 PM</time>
+
+        <h3 class=visually-hidden>Contacts</h3>
+        <a class=employee-phone href='tel:+380324971888'>+ 38 (032) 497-1888</a>
+        <a class=employee-email href='mailto:vera-mertens@hotmail.com'>samantha-kennedy@hotmail.com</a>
+
+        <div class=employee-options>
+            <ul class=employee-menu>
+                <li><a href=/>Edit</a>
+                <li><a href=/>Move to...</a>
+                <li><button class=remove>Remove</button>
+            </ul>
+        </div>
+    </section>
+    <section class=employee>
+        <h2 class=employee-name>Maria Cardenas</h2>
+        <p class=department>Operations</p>
+
+        <figure class=employee-image aria-label="it's employee's photo">
+            <img class=photo src="./images/employee_photo_5.png" alt="Maria Cardenas's photo">
+        </figure>
+
+        <h3 class=visually-hidden>Address</h3>
+        <p class=employee-location>
+            <span class=city tooltip="480 2nd Street, San Francisco, USA">San Francisco</span>
+            <span class=floor>2nd floor</span>
+        </p>
+
+        <h3 class=employee-time>Local time</h3>
+        <time class=current-time datetime='2017-11-06T16:42'>4:42 AM</time>
+
+        <h3 class=visually-hidden>Contacts</h3>
+        <a class=employee-phone href='tel:+380324971888'>+ 38 (032) 497-1888</a>
+        <a class=employee-email href='mailto:vera-mertens@hotmail.com'>maria_cardenas@hotmail.com</a>
+
+        <div class=employee-options>
+            <ul class=employee-menu>
+                <li><a href=/>Edit</a>
+                <li><a href=/>Move to...</a>
+                <li><button class=remove>Remove</button>
+            </ul>
+        </div>
+    </section>
+    <section class=employee>
+        <h2 class=employee-name>Charlotte Pelletier</h2>
+        <p class=department>Operations</p>
+
+        <figure class=employee-image aria-label="it's employee's photo">
+            <img class=photo src="./images/employee_photo_6.png" alt="Charlotte Pelletier's photo">
+        </figure>
+
+        <h3 class=visually-hidden>Address</h3>
+        <p class=employee-location>
+            <span class=city tooltip="480 2nd Street, San Francisco, USA">San Francisco</span>
+            <span class=floor>3rd floor</span>
+        </p>
+
+        <h3 class=employee-time>Local time</h3>
+        <time class=current-time datetime='2017-11-06T16:42'>4:42 AM</time>
+
+        <h3 class=visually-hidden>Contacts</h3>
+        <a class=employee-phone href='tel:+380324971888'>+ 38 (032) 497-1888</a>
+        <a class=employee-email href='mailto:vera-mertens@hotmail.com'>charlotte-pelletier@hotmail.com</a>
+
+        <div class=employee-options>
+            <ul class=employee-menu>
+                <li><a href=/>Edit</a>
+                <li><a href=/>Move to...</a>
+                <li><button class=remove>Remove</button>
+            </ul>
+        </div>
+    </section>
+</main>
+
+<script>
+
+</script>
